@@ -1,18 +1,16 @@
 
 /* Your CSS Code here. */
 .holder{
-	flex-wrap:wrap;
-	justify-content:space-between;
-	display:flex;
-	margin-left:-10px;
-	margin-right:-10px;
-	align-items:center;
+    display: flex;
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .item{
-	padding:15px;
-	flex:0 0 auto;
-}
-}
-	
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
 }
